@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @shipment.weight %>
+</p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @shipment.height %>
+</p>
+
+<p>
+  <strong>Width:</strong>
+  <%= @shipment.width %>
+</p>
+
+<p>
+  <strong>Depth:</strong>
+  <%= @shipment.depth %>
+</p>
+
+<p>
+  <strong>Package type:</strong>
+  <%= @shipment.package_type %>
+</p>
+
+<%= link_to 'Edit', edit_shipment_path(@shipment) %> |
+<%= link_to 'Back', shipments_path %>
